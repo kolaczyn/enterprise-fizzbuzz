@@ -2,7 +2,7 @@ using Kolaczyn;
 
 class FizzBuzzFactory
 {
-  public IFizzBuzzer GetFizzBuzz()
+  public static IFizzBuzzer GetFizzBuzz()
   {
     return new FizzBuzz();
   }

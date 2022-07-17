@@ -1,4 +1,2 @@
-﻿using Kolaczyn;
-
-IFizzBuzzer fb = new FizzBuzz();
+﻿var fb = FizzBuzzFactory.GetFizzBuzz();
 fb.Buzz(100);
