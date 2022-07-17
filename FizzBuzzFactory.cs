@@ -4,6 +4,7 @@ class FizzBuzzFactory
 {
   public static IFizzBuzzer GetFizzBuzz()
   {
-    return new FizzBuzz();
+    var fizzBuzzFormatter = new FizzBuzzFormatter();
+    return new FizzBuzz(fizzBuzzFormatter);
   }
 }
